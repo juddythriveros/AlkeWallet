@@ -16,4 +16,11 @@
         <item name="colorContainer">#1A87DD</item>
         <item name="boxStrokeColor">@color/azul_txt</item>
     </style>
+
+    <style name="RoundedShapeAppearance1">
+        <item name="cornerSize">12dp</item>
+        <item name="colorContainer">#72DB31</item>
+        <item name="boxStrokeColor">@color/verde</item>
+
+    </style>
 </resources>
