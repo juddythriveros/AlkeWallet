@@ -10,4 +10,10 @@
     <style name="boton">
     <item name="cornerRadius">10dp</item>
     </style>
+
+    <style name="RoundedShapeAppearance">
+        <item name="cornerSize">12dp</item>
+        <item name="colorContainer">#1A87DD</item>
+        <item name="boxStrokeColor">@color/azul_txt</item>
+    </style>
 </resources>

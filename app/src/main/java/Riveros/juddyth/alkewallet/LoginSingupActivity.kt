@@ -6,6 +6,6 @@ import android.os.Bundle
 class LoginSingupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login_singup)
+        setContentView(R.layout.activity_1login_singup)
     }
 }

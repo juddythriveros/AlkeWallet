@@ -8,7 +8,7 @@
     tools:context=".Signup_Page">
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/txt_titulo_reg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="52dp"
@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.217" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout3"
+        android:id="@+id/txtInputLayout_name"
         android:layout_width="328dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
@@ -34,7 +34,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/txt_titulo_reg"
         app:layout_constraintVertical_bias="0.107">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -53,15 +53,15 @@
         android:layout_marginEnd="280dp"
         android:fontFamily="@font/jua"
         android:text="@string/name"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout3"
+        app:layout_constraintBottom_toTopOf="@+id/txtInputLayout_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/txt_titulo_reg"
         app:layout_constraintVertical_bias="1.0" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout4"
+        android:id="@+id/txtInputLayout_Lastname"
         android:layout_width="328dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
@@ -71,7 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/txtInputLayout_name"
         app:layout_constraintVertical_bias="0.039">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -82,7 +82,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout5"
+        android:id="@+id/txtInputLayout_mail"
         android:layout_width="328dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
@@ -92,7 +92,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/txtInputLayout_Lastname"
         app:layout_constraintVertical_bias="0.05">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -103,7 +103,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout6"
+        android:id="@+id/txtInputLayout_clave"
         android:layout_width="328dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
@@ -114,7 +114,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
+        app:layout_constraintTop_toBottomOf="@+id/txtInputLayout_mail"
         app:layout_constraintVertical_bias="0.079">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -126,7 +126,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout7"
+        android:id="@+id/txtInputLayout_reing_clave"
         android:layout_width="328dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
@@ -137,7 +137,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout6"
+        app:layout_constraintTop_toBottomOf="@+id/txtInputLayout_clave"
         app:layout_constraintVertical_bias="0.143">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -155,10 +155,10 @@
         android:layout_marginEnd="280dp"
         android:fontFamily="@font/jua"
         android:text="@string/lastname"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout4"
+        app:layout_constraintBottom_toTopOf="@+id/txtInputLayout_Lastname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/txtInputLayout_name"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
@@ -168,11 +168,11 @@
         android:layout_marginEnd="280dp"
         android:fontFamily="@font/jua"
         android:text="@string/mail"
-        app:layout_constraintBottom_toTopOf="@+id/textInputLayout5"
+        app:layout_constraintBottom_toTopOf="@+id/txtInputLayout_mail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/txtInputLayout_Lastname"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
@@ -185,7 +185,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5"
+        app:layout_constraintTop_toBottomOf="@+id/txtInputLayout_mail"
         app:layout_constraintVertical_bias="0.061" />
 
     <TextView
@@ -198,11 +198,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.166"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout6"
+        app:layout_constraintTop_toBottomOf="@+id/txtInputLayout_clave"
         app:layout_constraintVertical_bias="0.102" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_creaCuenta"
         style="@style/boton"
         android:layout_width="315dp"
         android:layout_height="49dp"
@@ -216,7 +216,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/txt_yaTienes_cuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"

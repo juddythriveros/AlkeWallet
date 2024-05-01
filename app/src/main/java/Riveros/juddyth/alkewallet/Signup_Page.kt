@@ -6,6 +6,6 @@ import android.os.Bundle
 class Signup_Page : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_signup_page)
+        setContentView(R.layout.activity_3signup_page)
     }
 }

@@ -16,12 +16,15 @@
         android:text="@string/slogan_singup"
         android:textColor="#FBFBFB"
         android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="447dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/id_btn_crearCuenta"
         style="@style/boton"
         android:layout_width="315dp"
         android:layout_height="49dp"
@@ -39,7 +42,7 @@
         app:layout_constraintVertical_bias="0.906" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/id_txt_yaTienesCuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
@@ -51,14 +54,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.469"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/id_btn_crearCuenta"
         app:layout_constraintVertical_bias="0.727" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/id_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/id_btn_crearCuenta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -73,8 +76,8 @@
         android:text="@string/letralogo"
         android:textColor="@color/blanco"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintBottom_toBottomOf="@+id/id_txt_yaTienesCuenta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/id_logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
