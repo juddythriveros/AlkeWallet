@@ -31,9 +31,6 @@
             android:name=".Signup_Page"
             android:exported="false" />
         <activity
-            android:name=".SingUpPage"
-            android:exported="false" />
-        <activity
             android:name=".LoginPage"
             android:exported="false" />
         <activity

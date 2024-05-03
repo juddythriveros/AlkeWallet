@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.619" />
 
     <Button
-        android:id="@+id/id_btn_crearCuenta"
+        android:id="@+id/btncrearCuenta"
         style="@style/boton"
         android:layout_width="315dp"
         android:layout_height="49dp"
@@ -34,6 +34,7 @@
         android:fontFamily="@font/jua"
         android:text="@string/btn_crearcuenta"
         android:textSize="16sp"
+        android:onClick="abrirSingup_Page"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.277"
@@ -50,18 +51,20 @@
         android:text="@string/ya_tienes_cuenta"
         android:textColor="@color/azul_txt"
         android:textSize="14sp"
+        android:onClick="abrirLoginPage"
+        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.469"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/id_btn_crearCuenta"
+        app:layout_constraintTop_toBottomOf="@+id/btncrearCuenta"
         app:layout_constraintVertical_bias="0.727" />
 
     <ImageView
         android:id="@+id/id_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/id_btn_crearCuenta"
+        app:layout_constraintBottom_toTopOf="@+id/btncrearCuenta"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

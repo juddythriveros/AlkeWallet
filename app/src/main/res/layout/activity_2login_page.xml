@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="400dp"
-        android:textColorHint="false"
+        app:hintEnabled="false"
         app:boxBackgroundColor="@color/blanco"
         app:boxBackgroundMode="outline"
         app:boxCornerRadiusBottomEnd="10dp"
@@ -42,14 +42,14 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/id_ing_mail"
+            android:id="@+id/ingmail"
             android:layout_width="315dp"
-            android:layout_height="50dp"
+            android:layout_height="55dp"
             android:fontFamily="@font/jua"
             android:hint="@string/correo"
             android:inputType="textEmailAddress"
             android:textColor="@color/material_dynamic_neutral80"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -57,7 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="260dp"
-        android:textColorHint="false"
+        app:hintEnabled="false"
         app:boxBackgroundColor="@color/blanco"
         app:boxBackgroundMode="outline"
         app:boxCornerRadiusBottomEnd="10dp"
@@ -73,21 +73,22 @@
         app:layout_constraintTop_toBottomOf="@+id/txtInputmail">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ingclave"
             android:layout_width="315dp"
-            android:layout_height="50dp"
+            android:layout_height="55dp"
             android:fontFamily="@font/jua"
             android:hint="@string/clave"
             android:inputType="textPassword"
             android:textColor="@color/material_dynamic_neutral80"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="300dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="200dp"
         android:fontFamily="@font/jua"
         android:text="@string/mail"
         android:textSize="20sp"
@@ -100,9 +101,9 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="200dp"
         android:fontFamily="@font/jua"
@@ -137,14 +138,15 @@
         android:layout_height="49dp"
         android:backgroundTint="#63B8FC"
         android:fontFamily="@font/jua"
+        android:onClick="abrirHomePAge"
         android:text="@string/login"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintHorizontal_bias="0.166"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtInputLayoutclave"
-        app:layout_constraintVertical_bias="0.667" />
+        app:layout_constraintVertical_bias="0.66" />
 
     <TextView
         android:id="@+id/txtcreaNuevaCuenta"
@@ -155,6 +157,7 @@
         android:text="@string/nuevacuenta"
         android:textColor="@color/azul_txt"
         android:textSize="16sp"
+        android:onClick="abrirSingup_Page"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
